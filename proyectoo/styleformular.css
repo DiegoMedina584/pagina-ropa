@@ -1,0 +1,46 @@
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+h1,h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 3em;
+}
+fieldset{
+    margin: 1em auto;
+}
+legend{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+label{
+    font-weight: bold;
+    display: block;
+}
+input:focus,select:focus{
+    background-color: aqua;
+}
+input:hover,select:hover{
+    background-color: palegreen;
+}
+#boton-crear{
+    font-size: 2em;
+    padding: 0.5em;
+}
+.inline{
+    display: inline;
+}
+.centrado{
+    text-align: center;
+}

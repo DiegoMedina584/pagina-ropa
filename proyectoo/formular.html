@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleformular.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body background="">
+    <form action="prueba2.php" method="post">
+        <fieldset>
+            <legend>Quien eres</legend>
+            <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="name" id="nombre">
+
+            <label for="apellidos">apellidos</label>
+            <input type="text" name="apellidos" id="aoellidos">
+        </p>
+        <p>
+            <label for="Correo electronico">correo electronico</label>
+            <input type="text" name="correoelectronico" id="correo">
+        </p>
+ 
+        </fieldset>
+        <fieldset>
+            <legend>De donde eres</legend>
+            <p>
+                <label for="Ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad">
+            </p>
+            <p>
+                <label for="cp">Codigo postal</label>
+                <input type="text" name="codigopostal" id="codigo postal">
+            </p>
+            <p>
+                <label for="pais">Pais</label>
+            <select name="pais" id="pais">
+           
+            <option value="mexico">Mexico</option>
+            <option value="peru">Peru</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+            </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Como quieres iniciar sesion</legend>
+            <p>
+                <label for="nomusu">Nombre de Usuario</label>
+                <input type="text" name="nomsusu" id="nomsusu">
+            </p>
+       
+            <input type="submit" value="Enviar">
+            <p><a href="index.html">volver</a></p>
+        </fieldset>
+   
+
+    </form>
+    
+</body>
+</html>
